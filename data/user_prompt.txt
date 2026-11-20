@@ -1,0 +1,18 @@
+## Task
+
+{task_description}
+
+## Context
+
+{context}
+
+## Constraints
+
+- You have at most {max_iterations} steps.
+- Work in small steps and verify your results with code.
+
+## Expected output
+
+Call final_answer(...) with {expected_output} once the task is solved.
+
+Begin now. Answer with your first Thought and Code block.

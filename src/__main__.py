@@ -1,9 +1,12 @@
-from .Prompt import Prompt
+from .ContextManager import ContextManager
 
 
 def main() -> None:
-    prompt = Prompt()
-    print(prompt.prompt)
+    context_manager = ContextManager()
+    print(context_manager.sys_prompt)
+    print("\n\n########################################\n\n")
+    context_manager.sys_prompt = "bibabeloula"
+    print(context_manager.sys_prompt)
 
 
 if __name__ == "__main__":
